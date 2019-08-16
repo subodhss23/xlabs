@@ -103,11 +103,17 @@ ul{
   display: flex;
   flex-direction: column;
   width: 30vw;
-  height: 20vh;
-  padding-left: 200px;
+  height: 50vh;
+  
+  /*padding-left: 200px;
   padding-right: 100px;
-  margin-bottom: -150px;
+  margin-bottom: -150px; */
   border: 1px solid green;
   transform: rotate(90deg);
- 
+ justify-content: center;
+ margin-right: -100px;
+}
+
+.side-logo #underline{
+  text-decoration: underline;
 }
